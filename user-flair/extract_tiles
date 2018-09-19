@@ -1,0 +1,64 @@
+#!/bin/bash
+
+tilePrefix='t'
+convert user-flair-spritesheet.png -crop 16x16 ${tilePrefix}%03d.png
+
+function rename_tile {
+	mv ${tilePrefix}${1}.png ${tilePrefix}${1}-${2}.png
+}
+
+rename_tile 000 android
+rename_tile 001 apple
+rename_tile 002 arch
+rename_tile 003 backtrack
+rename_tile 004 centos
+rename_tile 005 chakra
+rename_tile 006 debian
+rename_tile 007 dragonflybsd
+rename_tile 008 fedora
+rename_tile 009 freebsd
+rename_tile 010 gentoo
+rename_tile 011 gnome
+rename_tile 012 kde
+rename_tile 013 kubuntu
+rename_tile 014 linuxfromscratch
+rename_tile 015 linuxmint
+rename_tile 016 mandriva
+rename_tile 017 meego
+rename_tile 018 mepis
+rename_tile 019 netbsd
+rename_tile 020 nexeta
+rename_tile 021 openbsd
+rename_tile 022 opensuse
+rename_tile 023 pardus
+rename_tile 024 pcbsd
+rename_tile 025 pclinuxos
+rename_tile 026 redhat
+rename_tile 027 sabanyon
+rename_tile 028 aptosid
+rename_tile 029 slackware
+rename_tile 030 slax
+rename_tile 031 solaris
+rename_tile 032 tux
+rename_tile 033 ubuntu
+rename_tile 034 ultamate
+rename_tile 035 vector
+rename_tile 036 windows
+rename_tile 037 xandros
+rename_tile 038 yellowdog
+rename_tile 039 enlightenment
+rename_tile 040 fluxbox
+rename_tile 041 freedesktop
+rename_tile 042 freesoftwarefoundation
+rename_tile 043 gnu
+rename_tile 044 konsole
+rename_tile 045 openbox
+rename_tile 046 xfce
+rename_tile 047 xorg
+rename_tile 048 irix
+rename_tile 049 kdeneon
+rename_tile 050 maui
+rename_tile 051 manjaro
+
+
+
