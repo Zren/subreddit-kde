@@ -55,7 +55,7 @@ kdedevClasses = [
 	{ 'name': 'kdedevarch', 'sprite': 'arch', 'bg': '#000a8f', },
 	{ 'name': 'kdedevkrita', 'sprite': 'krita', 'bg': '#b02564', },
 	{ 'name': 'kdedevkdenlive', 'sprite': 'kdenlive', 'bg': '#004444', },
-	{ 'name': 'kdedevkate', 'sprite': 'kate', 'bg': '#196181', },
+	{ 'name': 'kdedevkate', 'sprite': 'katesymbol', 'bg': '#196181', },
 	{ 'name': 'kdedevkwin', 'sprite': 'kwin', 'bg': '#445560', },
 	{ 'name': 'kdedevvdg', 'sprite': 'vdg', 'bg': '#701db5', },
 	{ 'name': 'kdedevneochat', 'sprite': 'neochat', 'bg': '#397249', },
