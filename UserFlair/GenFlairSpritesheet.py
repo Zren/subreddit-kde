@@ -3,8 +3,8 @@ import glob
 import os
 import subprocess
 
-columns = 16
-rows = 8
+columns = 1
+rows = 128
 tileWidth = 16
 tileHeight = 16
 
