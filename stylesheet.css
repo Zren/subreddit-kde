@@ -1,6 +1,7 @@
 /* To change Konqi, upload image below and change the image name here */
+/* https://community.kde.org/Promo/Material/Mascots */
 .pagename a:before {
-  background-image: url(%%konqi-bugs%%);
+  background-image: url(%%konqi-plasma%%);
 }
 
 
@@ -19,6 +20,7 @@
  
 
 /* ========== End of Naut Theme =========== */
+/* ========== Naut Fixes ========= */
 
 .res #searchexpando br {
     display: none;
@@ -46,8 +48,43 @@
 #chat.active {
     background-position: -17px -153px;
 }
+.search-result-meta span.search-time {
+    display: initial;
+}
 
-/* ========== End of Naut Fixes =========== */
+/* ========== Light NavBar ========= */
+
+
+#sr-header-area .sr-bar a,
+#sr-more-link, #sr-header-area .separator,
+#sr-header-area .dropdown.srdrop .selected {
+  /* color: rgba(32,32,32,0.7); */
+}
+#sr-header-area:hover .sr-bar a,
+#sr-header-area:hover #sr-more-link,
+#sr-header-area:hover .seperator,
+#sr-header-area:hover .dropdown.srdrop .selected {
+  /* color: rgba(32,32,32,1.0);  */
+}
+
+
+#header-bottom-right a,
+.separator,
+.user,
+.user .userkarma {
+/*  color: rgba(32,32,32,0.7); */
+}
+
+/* ========== Darker NavBar ========= */
+
+/*
+#sr-header-area,
+.res-nightmode #sr-header-area {
+    background-color:rgba(0,0,0,0.70) !important;
+}
+*/
+
+/* ====================================== */
 
 .titlebox:before {
     display: none;
@@ -154,6 +191,32 @@
     top: 112px;
     background-size: cover;
 }
+
+/* Move first <ul> to header (usually a list of release threads) */
+body:not(.search-page) .side .usertext-body .md ul:first-of-type {
+    position: absolute;
+    left: 240px;
+    top: 30px;
+    height: 120px;
+    z-index: 10;
+    color: #fff;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    text-shadow: 0 0 10px #002b57, 0 0 8px #002b57, 0 0 2px #002b57, 0 0 2px #002b57;
+}
+body:not(.search-page) .side .usertext-body .md ul:first-of-type li {
+    vertical-align: bottom;
+}
+body:not(.search-page) .side .usertext-body .md ul:first-of-type li strong {
+    color: #a4c8f0;
+}
+body:not(.search-page) .side .usertext-body .md ul:first-of-type li a,
+body:not(.search-page) .side .usertext-body .md ul:first-of-type li a:visited {
+    font-weight: bold;
+    color: #fff;
+}
+
 
 /* Sidebar Image Slideshow (320x180px)
 * 20sec / 4 frames = 5sec per frame
@@ -265,6 +328,32 @@
 .flair-xfce { background-position: 0px -736px; }
 .flair-xorg { background-position: 0px -752px; }
 .flair-yellowdog { background-position: 0px -608px; }
+.flair-alphine { background-position: 0px -768px; }
+.flair-kdedev {
+  background-position: 0px -192px;
+  background-color: #1d99f3;
+  color: #FFFFFF;
+  border-color: #1d99f3;
+}
+.flair-kdedevsuse {
+  background-position: 0px -352px;
+  background-color: #1d99f3;
+  color: #FFFFFF;
+  border-color: #1d99f3;
+}
+.flair-kdedevmanjaro {
+  background-position: 0px -816px;
+  background-color: #1d99f3;
+  color: #FFFFFF;
+  border-color: #1d99f3;
+}
+.flair-kdedevkubuntu {
+  background-position: 0px -208px;
+  background-color: #1d99f3;
+  color: #FFFFFF;
+  border-color: #1d99f3;
+}
+
 
 #images:before {
     position: static;
@@ -272,8 +361,12 @@
 }
 
 #header {
-    background-position: 66% 50%; /* right-aligned */
+    background-position: 20% 50%; /* right-aligned */
 }
 .submit-page .roundfield textarea.title {
     text-transform: none;
+}
+
+.linkflairlabel {
+   max-width: 100em;
 }
