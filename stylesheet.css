@@ -323,58 +323,114 @@ body:not(.search-page) .side .usertext-body .md ul:first-of-type li a:visited {
 .flair-meego { background-position: 0px -672px; }
 .flair-mepis { background-position: 0px -688px; }
 .flair-mxlinux { background-position: 0px -704px; }
-.flair-netbsd { background-position: 0px -720px; }
-.flair-netrunner { background-position: 0px -736px; }
-.flair-nexeta { background-position: 0px -752px; }
-.flair-nixos { background-position: 0px -768px; }
-.flair-openbox { background-position: 0px -784px; }
-.flair-openbsd { background-position: 0px -800px; }
-.flair-opensuse { background-position: 0px -816px; }
-.flair-pardus { background-position: 0px -832px; }
-.flair-pcbsd { background-position: 0px -848px; }
-.flair-pclinuxos { background-position: 0px -864px; }
-.flair-plasmamobile { background-position: 0px -880px; }
-.flair-qubesos { background-position: 0px -896px; }
-.flair-redhat { background-position: 0px -912px; }
-.flair-sabanyon { background-position: 0px -928px; }
-.flair-slackware { background-position: 0px -944px; }
-.flair-slax { background-position: 0px -960px; }
-.flair-solaris { background-position: 0px -976px; }
-.flair-tux { background-position: 0px -992px; }
-.flair-ubuntu { background-position: 0px -1008px; }
-.flair-ultamate { background-position: 0px -1024px; }
-.flair-vector { background-position: 0px -1040px; }
-.flair-void { background-position: 0px -1056px; }
-.flair-wayland { background-position: 0px -1072px; }
-.flair-windows { background-position: 0px -1088px; }
-.flair-xandros { background-position: 0px -1104px; }
-.flair-xfce { background-position: 0px -1120px; }
-.flair-xorg { background-position: 0px -1136px; }
-.flair-yellowdog { background-position: 0px -1152px; }
+.flair-neochat { background-position: 0px -720px; }
+.flair-netbsd { background-position: 0px -736px; }
+.flair-netrunner { background-position: 0px -752px; }
+.flair-nexeta { background-position: 0px -768px; }
+.flair-nixos { background-position: 0px -784px; }
+.flair-openbox { background-position: 0px -800px; }
+.flair-openbsd { background-position: 0px -816px; }
+.flair-opensuse { background-position: 0px -832px; }
+.flair-pardus { background-position: 0px -848px; }
+.flair-pcbsd { background-position: 0px -864px; }
+.flair-pclinuxos { background-position: 0px -880px; }
+.flair-plasmamobile { background-position: 0px -896px; }
+.flair-qubesos { background-position: 0px -912px; }
+.flair-redhat { background-position: 0px -928px; }
+.flair-sabanyon { background-position: 0px -944px; }
+.flair-slackware { background-position: 0px -960px; }
+.flair-slax { background-position: 0px -976px; }
+.flair-solaris { background-position: 0px -992px; }
+.flair-tux { background-position: 0px -1008px; }
+.flair-ubuntu { background-position: 0px -1024px; }
+.flair-ultamate { background-position: 0px -1040px; }
+.flair-vdg { background-position: 0px -1056px; }
+.flair-vector { background-position: 0px -1072px; }
+.flair-void { background-position: 0px -1088px; }
+.flair-wayland { background-position: 0px -1104px; }
+.flair-windows { background-position: 0px -1120px; }
+.flair-xandros { background-position: 0px -1136px; }
+.flair-xfce { background-position: 0px -1152px; }
+.flair-xorg { background-position: 0px -1168px; }
+.flair-yellowdog { background-position: 0px -1184px; }
 
 .flair-kdedev {
-  background-position: 0px -416px;
-  background-color: #1d99f3;
-  color: #FFFFFF;
-  border-color: #1d99f3;
+    background-position: 0px -416px;
+    background-color: #3daee9;
+    color: #ffffff;
+    border-color: #3daee9;
+}
+.flair-kdedevchakra {
+    background-position: 0px -128px;
+    background-color: #6b5e9c;
+    color: #ffffff;
+    border-color: #6b5e9c;
 }
 .flair-kdedevsuse {
-  background-position: 0px -816px;
-  background-color: #1d99f3;
-  color: #FFFFFF;
-  border-color: #1d99f3;
-}
-.flair-kdedevmanjaro {
-  background-position: 0px -640px;
-  background-color: #1d99f3;
-  color: #FFFFFF;
-  border-color: #1d99f3;
+    background-position: 0px -832px;
+    background-color: #007373;
+    color: #ffffff;
+    border-color: #007373;
 }
 .flair-kdedevkubuntu {
-  background-position: 0px -544px;
-  background-color: #1d99f3;
-  color: #FFFFFF;
-  border-color: #1d99f3;
+    background-position: 0px -544px;
+    background-color: #4042be;
+    color: #ffffff;
+    border-color: #4042be;
+}
+.flair-kdedevfedora {
+    background-position: 0px -224px;
+    background-color: #014980;
+    color: #ffffff;
+    border-color: #014980;
+}
+.flair-kdedevredhat {
+    background-position: 0px -928px;
+    background-color: #800016;
+    color: #ffffff;
+    border-color: #800016;
+}
+.flair-kdedevarch {
+    background-position: 0px -64px;
+    background-color: #000a8f;
+    color: #ffffff;
+    border-color: #000a8f;
+}
+.flair-kdedevkrita {
+    background-position: 0px -528px;
+    background-color: #b02564;
+    color: #ffffff;
+    border-color: #b02564;
+}
+.flair-kdedevkdenlive {
+    background-position: 0px -448px;
+    background-color: #004444;
+    color: #ffffff;
+    border-color: #004444;
+}
+.flair-kdedevkate {
+    background-position: 0px -368px;
+    background-color: #196181;
+    color: #ffffff;
+    border-color: #196181;
+}
+.flair-kdedevkwin {
+    background-position: 0px -560px;
+    background-color: #445560;
+    color: #ffffff;
+    border-color: #445560;
+}
+.flair-kdedevvdg {
+    background-position: 0px -1056px;
+    background-color: #701db5;
+    color: #ffffff;
+    border-color: #701db5;
+}
+.flair-kdedevneochat {
+    background-position: 0px -720px;
+    background-color: #397249;
+    color: #ffffff;
+    border-color: #397249;
 }
 
 
