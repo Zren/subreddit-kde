@@ -1,7 +1,7 @@
 /* To change Konqi, upload image below and change the image name here */
 /* https://community.kde.org/Promo/Material/Mascots */
 .pagename a:before {
-  background-image: url(%%konqi-plasma%%);
+  background-image: url(%%konqi-science%%);
 }
 
 
@@ -54,35 +54,42 @@
 
 /* ========== Light NavBar ========= */
 
+/*
+#sr-header-area,
+.res-nightmode #sr-header-area {
+    background-color:rgba(255,255,255,0.40) !important;
+}
 
 #sr-header-area .sr-bar a,
 #sr-more-link, #sr-header-area .separator,
 #sr-header-area .dropdown.srdrop .selected {
-  /* color: rgba(32,32,32,0.7); */
+  color: rgba(32,32,32,0.7);
 }
 #sr-header-area:hover .sr-bar a,
 #sr-header-area:hover #sr-more-link,
 #sr-header-area:hover .seperator,
 #sr-header-area:hover .dropdown.srdrop .selected {
-  /* color: rgba(32,32,32,1.0);  */
+  color: rgba(32,32,32,1.0);
 }
-
 
 #header-bottom-right a,
 .separator,
 .user,
 .user .userkarma {
-/*  color: rgba(32,32,32,0.7); */
+  color: rgba(32,32,32,0.7); 
 }
+*/
 
 /* ========== Darker NavBar ========= */
 
-/*
+
 #sr-header-area,
 .res-nightmode #sr-header-area {
-    background-color:rgba(0,0,0,0.70) !important;
+    /* background-color:rgba(0,0,0,0.70) !important; */
+    background-color: rgba(77,77,77,0.80) !important;
+    box-shadow: 0 0 10px #000;
 }
-*/
+
 
 /* ====================================== */
 
@@ -199,22 +206,31 @@ body:not(.search-page) .side .usertext-body .md ul:first-of-type {
     top: 30px;
     height: 120px;
     z-index: 10;
-    color: #fff;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-    text-shadow: 0 0 10px #002b57, 0 0 8px #002b57, 0 0 2px #002b57, 0 0 2px #002b57;
+    /* White/Blue */
+    /* color: #fff; */
+    /* text-shadow: 0 0 10px #002b57, 0 0 8px #002b57, 0 0 2px #002b57, 0 0 2px #002b57; */
+    /* Gray/Black */
+    color: #444;
+    text-shadow: 0 0 2px #fff;
 }
 body:not(.search-page) .side .usertext-body .md ul:first-of-type li {
     vertical-align: bottom;
 }
 body:not(.search-page) .side .usertext-body .md ul:first-of-type li strong {
-    color: #a4c8f0;
+    /* color: #a4c8f0; */
+    color: #000;
 }
 body:not(.search-page) .side .usertext-body .md ul:first-of-type li a,
 body:not(.search-page) .side .usertext-body .md ul:first-of-type li a:visited {
     font-weight: bold;
-    color: #fff;
+    /* color: #fff; */
+    color: #444;
+}
+body:not(.search-page) .side .usertext-body .md ul:first-of-type li a:hover {
+    color: #666;
 }
 
 
@@ -440,7 +456,7 @@ body:not(.search-page) .side .usertext-body .md ul:first-of-type li a:visited {
 }
 
 #header {
-    background-position: 20% 50%; /* right-aligned */
+    background-position: 50% 50%; /* center-aligned */
 }
 .submit-page .roundfield textarea.title {
     text-transform: none;
